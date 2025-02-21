@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    background-image: url(./assets/bg-pic.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(230, 107, 148, 0.411);
+    height: 10vh;
+}
+.content ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 80vh;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(230, 107, 148, 0.411);
+    height: 10vh;
+}
